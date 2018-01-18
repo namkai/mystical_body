@@ -1,11 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import NavigationBar from 'components/NavigationBar'
 import './View.css'
 
 const Home = (props) => (
-  <div className="home">
+  <main className="home">
+    <NavigationBar/>
     <p>test</p>
-  </div>
+  </main>
 );
 
 Home.propTypes = {};
