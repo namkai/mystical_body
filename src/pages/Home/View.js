@@ -1,12 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import NavigationBar from 'components/NavigationBar'
-import './View.css'
+import NavigationBar from 'components/NavigationBar';
+import './View.css';
 
-const Home = (props) => (
+const Home = props => (
   <main className="home">
-    <NavigationBar/>
-    <p>test</p>
+    <NavigationBar />
+    <div className="content">
+      <p className="slogan">How to get there and always find your way back </p>
+      <button>About Me</button>
+    </div>
   </main>
 );
 
